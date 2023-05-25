@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AdC MAV</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="..\css\Style.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="second">
+    <header>
+        <div class="headerNavig">
+            <a href="../html/Index.html">
+                <div class="logo">
+                    <img class="logoIMG">
+                </div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="../html/Index.html">
+                            <t class="fuenteGral">INICIO</t>
+                        </a>
+                    </li>
+                    <li><a href="../html/Unidad1.html">
+                            <t class="fuenteGral">UNIDAD 1</t>
+                        </a>
+                    </li>
+                    <li><a href="../html/Unidad2.html">
+                            <t class="fuenteGral">UNIDAD 2</t>
+                        </a>
+                    </li>
+                    <li><a href="../html/Unidad3.html">
+                            <t class="fuenteGral">UNIDAD 3</t>
+                        </a>
+                    </li>
+                    <li><a href="../html/Unidad4.html">
+                            <t class="fuenteGral">UNIDAD 4</t>
+                        </a>
+                    </li>
+                    <li><a href="../html/Practicas.html">
+                            <t class="fuenteGral">PRACTICAS</t>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="cont-temas">
+        <ul>
+            <li>
+                <div class="dropdown">
+                    <div class="tab"><t class="fuenteGral">Temas</t></div>
+                    <div class="dropdown-content-U2">
+                        <a href="#seccion1"><t class="fuenteGral">2.1 ORGANIZACIÓN DEL PROCESADO</t></a>
+                        <a href="#seccion2"><t class="fuenteGral">2.2 ESTRUCTURA DE REGISTROS</t></a>
+                        <a href="#seccion3"><t class="fuenteGral">2.2.1 REGISTROS VISIBLES PARA EL USUARIO</t></a>
+                        <a href="#seccion4"><t class="fuenteGral">2.2.2 REGISTROS DE CONTROL Y ESTADOS</t></a>
+                        <a href="#seccion5"><t class="fuenteGral">2.2.3 EJEMPLOS DE REGISTROS DE CPU REALES</t></a>
+                        <a href="#seccion6"><t class="fuenteGral">2.3 EL CICLO DE INSTRUCCIONES</t></a>
+                        <a href="#seccion7"><t class="fuenteGral">2.3.1 CICLO DE FETCH-DECODE-EXECUTE</t></a>
+                        <a href="#seccion8"><t class="fuenteGral">2.3.2 SEGMENTACIÓN DE INSTRUCCIONES</t></a>
+                        <a href="#seccion9"><t class="fuenteGral">2.3.3 CONJUNTO DE INSTRUCCIONES: CARACTERÍSTICAS Y FUNCIONES</t></a>
+                        <a href="#seccion10"><t class="fuenteGral">2.3.4 MÓDULOS DE DIRECCIONAMIENTO</t></a>
+                        <a href="#seccion11"><t class="fuenteGral">2.4 CASOS DE ESTUDIO DE CPU REALES</t></a>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown-ri"><t class="fuenteGral">MAURO EMANUEL ALVARADO VAZQUEZ - 21051384</t></div>
+            </li>
+        </ul>
+    </div>
+    <div class="colum">
+        <section class="hero-section">
+            <section class="sec">
+                <div class="cont">
+                    <br><br>
+                    
+                    <div class="cont">
+                        <section id="seccion1">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">2.1 Organización del Procesador</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">La organización del procesador es un aspecto fundamental en la arquitectura de computadoras, ya que
+                                    se encarga de coordinar todas las operaciones y funciones del sistema. El procesador, también
+                                    conocido como Unidad Central de Procesamiento (CPU), es el cerebro de la computadora y se compone de
+                                    diferentes componentes y subsistemas.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <video src="../media/video/procesdor.mp4" width="100%" autoplay muted loop></video>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">la organización del procesador se compone de la unidad de control, la unidad aritmético-lógica y los registros. La unidad de control interpreta y ejecuta las instrucciones del programa, la unidad aritmético-lógica realiza operaciones matemáticas y lógicas, y los registros almacenan datos temporales y resultados intermedios.</t>
+                                </div>
+                                
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">La organización del procesador varía según la arquitectura de 
+                                    la computadora. Algunas arquitecturas utilizan un enfoque complejo de instrucciones (CISC), con instrucciones detalladas y versátiles, 
+                                    otas con reducido de instrucciones (RISC), con instrucciones simples y enfocadas en eficiencia y rendimiento.</t>
+                                </div>  
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <div class="contenedorInfoIzq">
+                            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT6jjFXI8_bgt8_rTnnKj6v1wSiQlsTleUsEAHIVtDv8AJkH6D5" alt="" width="100%">
+                        </div>
+                        <div class="contenedorInfoDerTexto">
+                            <t class="fuenteTitleBold">Mas Info</t><br>
+                            <t class="fuenteGral">La organización del procesador es el conjunto de componentes y subsistemas que permiten
+                                el funcionamiento de la CPU. Comprender cómo está organizado el procesador es esencial para
+                                comprender el funcionamiento de una computadora y su capacidad para ejecutar instrucciones y
+                                procesar datos.</t>
+                        </div>
+                    </div>
+
+                    <div class="cont">
+                        <section id="seccion2">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">2.2 Estructura de registros</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">En arquitectura de computadoras, los registros son unidades de almacenamiento de alta velocidad
+                                    ubicadas en la CPU. Estas pequeñas áreas de almacenamiento se utilizan para almacenar datos
+                                    temporales, direcciones de memoria y resultados intermedios durante la ejecución de instrucciones.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="cont">
+                        <div class="contenedorInfoIzq">
+                            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRpHLnzwmg4fkjSrU29YieT2WbxyT7wJz4QaRNiOY3yvKJDsOiG" alt="" width="100%">
+                        </div>
+                        <div class="contenedorInfoDerTexto">
+                            <t class="fuenteTitleBold">Mas Info</t><br>
+                            <t class="fuenteGral">Existen diferentes tipos de registros en una arquitectura de computadoras, pero se pueden clasificar
+                                en dos categorías principales: registros visibles para el usuario y registros de control y estados.</t>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion3">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">2.2.1 Registros visibles para el usuario</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Los registros visibles para el usuario son aquellos que se utilizan para almacenar datos que son
+                                    accesibles directamente por el programador o el usuario del sistema. Estos registros son utilizados
+                                    para realizar operaciones aritméticas, lógicas y de almacenamiento de datos. Algunos ejemplos
+                                    comunes de registros visibles son:</t></div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">- Registro de datos (Data Register): Almacena datos que son utilizados por las instrucciones del
+                                    programa.</t>
+                                </div>
+                                
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">- Registro de dirección (Address Register): Almacena la dirección de memoria de los datos que se van
+                                    a leer o escribir.</t>
+                                </div>
+                                
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">- Registro de índice (Index Register): Utilizado para realizar operaciones de desplazamiento y
+                                    cálculos de dirección.</t>
+                                </div>
+                                
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">- Registro de acumulador (Accumulator): Almacena los resultados de operaciones aritméticas y
+                                    lógicas.</t>
+                                </div>
+                                
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Estos registros visibles para el usuario son importantes porque permiten a los programadores y
+                                    usuarios interactuar con la computadora de manera más directa y manipular los datos
+                                    según sea necesario.</t>
+                                </div>
+                                
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion4">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">2.2.2 Registros de control y estados</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Además de los registros visibles, existen los registros de control y estados que se utilizan para
+                                    gestionar y controlar el funcionamiento interno del procesador. Estos registros están involucrados
+                                    en el ciclo de instrucción, la ejecución de interrupciones y la administración del estado de la CPU.
+                                    Algunos ejemplos de registros de control y estados son:</t></div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">- Program Counter (PC): Almacena la dirección de la siguiente instrucción a ejecutar.</t>
+                                </div>
+                                
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">- Registro de instrucción (Instruction Register): Almacena la instrucción actualmente en ejecución.</t>
+                                </div>
+                                
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">- Registro de banderas (Flags Register): Almacena bits que indican condiciones o resultados de
+                                    operaciones, como el resultado de una operación aritmética o si se produjo un desbordamiento.</t>
+                                </div>
+                                
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">- Registro de banderas (Flags Register): Almacena bits que indican condiciones o resultados de
+                                    operaciones, como el resultado de una operación aritmética o si se produjo un desbordamiento.</t>
+                                </div>
+                                
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <div class="contenedorInfoIzq">
+                            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRr15Ueo-XmXXM9lng7qitXyVnmOAR_cV-OZVZPWGvVCwqFguIM" alt="" width="100%">
+                        </div>
+                        <div class="contenedorInfoDerTexto">
+                            <t class="fuenteTitleBold">Mas Info</t><br>
+                            <t class="fuenteGral">Estos registros de control y estados son esenciales para el funcionamiento adecuado de la CPU, ya
+                                que controlan el flujo de instrucciones, gestionan interrupciones y mantienen información sobre el
+                                estado actual de la computadora.</t>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion5">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">2.2.3 Ejemplos de registros de CPU reales</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">En los procesadores reales, los conjuntos de registros pueden variar según la arquitectura
+                                    específica. A continuación, se presentan algunos ejemplos de registros utilizados en procesadores
+                                    populares:</t></div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">- Procesadores x86: Estos procesadores utilizan una arquitectura CISC y tienen varios conjuntos de
+                                    registros. Algunos de los registros más comunes son EAX (Acumulador Extendido), EBX (Base
+                                    Extendida), ECX (Contador Extendido) y EDX (Datos Extendidos). Estos registros se pueden acceder en
+                                    tamaños diferentes (8, 16, 32 o 64 bits) según el modo de operación del procesador.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">- Procesadores ARM: Los procesadores ARM utilizan una arquitectura RISC y tienen un conjunto de
+                                    registros de propósito general (General-Purpose Registers) llamados R0, R1, R2, etc. También cuentan
+                                    con registros especiales, como el Program Counter (PC) y el Registro de Estado del Programa (CPSR),
+                                    que almacenan información sobre el estado de la CPU.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">- Procesadores MIPS: Los procesadores MIPS también siguen una arquitectura RISC y tienen un conjunto
+                                    de 32 registros de propósito general, numerados del $0 al $31. Estos registros se pueden acceder
+                                    directamente en instrucciones y se utilizan para almacenar datos y direcciones.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Estos son solo ejemplos de registros utilizados en diferentes arquitecturas de procesadores. Cada
+                                    arquitectura puede tener su propio conjunto de registros con nombres y funciones específicas, pero
+                                    todos desempeñan un papel crucial en el funcionamiento y rendimiento de la CPU.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="cont">
+                        <section id="seccion6">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">2.3 El ciclo de instrucciones</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">El ciclo de instrucciones es una parte fundamental de la arquitectura de computadoras. Se refiere al
+                                    proceso mediante el cual una computadora ejecuta una instrucción, que es la unidad básica de trabajo en
+                                    un programa. El ciclo de instrucciones generalmente consta de tres etapas: fetch (obtención), decode
+                                    (decodificación) y execute (ejecución).</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="cont">
+                        <section id="seccion7">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">2.3.1 Ciclo de fetch-decode-execute</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">El ciclo de fetch-decode-execute es el núcleo del procesamiento de instrucciones en una computadora. En
+                                    la etapa de fetch, la CPU (Unidad Central de Procesamiento) obtiene la siguiente instrucción del
+                                    programa almacenado en la memoria principal. La instrucción se lee de la memoria y se coloca en un
+                                    registro interno de la CPU llamado registro de instrucciones.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">En la etapa de decode, la CPU interpreta la instrucción que se ha obtenido. Esto implica determinar qué
+                                    operación debe realizarse y qué datos se necesitan para llevar a cabo dicha operación. La CPU decodifica
+                                    la instrucción y extrae los operandos necesarios, si los hay, para su posterior uso.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <div class="contenedorInfoIzq">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlBRB9yzayyKlY0DrihDQteUnZ7s85LsldmzyGWC_0nGUuKkNR" alt="" width="100%">
+                        </div>
+                        <div class="contenedorInfoDerTexto">
+                            <t class="fuenteTitleBold">Mas Info</t><br>
+                            <t class="fuenteGral">Finalmente, en la etapa de execute, la CPU realiza la operación especificada por la instrucción. Esto
+                                puede implicar realizar cálculos matemáticos, acceder a la memoria para obtener datos o almacenar
+                                resultados, o realizar otras tareas dependiendo de la instrucción específica. Una vez completada la
+                                ejecución, el ciclo se repite para la siguiente instrucción.</t>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion8">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">2.3.2 Segmentación de instrucciones</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">La segmentación de instrucciones es una técnica utilizada en algunas arquitecturas de computadoras para
+                                    mejorar el rendimiento del procesamiento de instrucciones. En lugar de esperar a que una instrucción
+                                    complete todo el ciclo de fetch-decode-execute antes de pasar a la siguiente, la segmentación divide el
+                                    proceso en etapas más pequeñas y las ejecuta en paralelo.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">
+                                    En una arquitectura segmentada, se ejecutan múltiples instrucciones simultáneamente en diferentes etapas del ciclo, lo que optimiza
+                                    la utilización de los recursos de la CPU y mejora la eficiencia del procesamiento.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion9">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">2.3.3 Conjunto de Istrucciones</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">El conjunto de instrucciones de una arquitectura de computadoras se refiere al conjunto de operaciones
+                                    que puede realizar la CPU y los formatos en los que se representan las instrucciones. Cada arquitectura
+                                    tiene su propio conjunto de instrucciones, que está determinado por las necesidades y características
+                                    específicas del diseño de la CPU.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Las instrucciones en un conjunto de instrucciones pueden variar en complejidad y funcionalidad. Pueden
+                                    incluir operaciones aritméticas y lógicas básicas, transferencia de datos entre registros y memoria,
+                                    acceso a dispositivos de entrada/salida y operaciones de control de flujo, entre otros. Además, las
+                                    instrucciones pueden tener diferentes formatos, como instrucciones de un solo operando, instrucciones de
+                                    dos operandos o instrucciones con direccionamiento directo o indirecto.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">La elección del conjunto de instrucciones tiene un impacto significativo en el rendimiento y la
+                                    flexibilidad de una
+                                    arquitectura de computadoras. Un conjunto de instrucciones bien diseñado debe equilibrar la complejidad
+                                    y la funcionalidad para permitir una amplia gama de aplicaciones y al mismo tiempo optimizar el
+                                    rendimiento y la eficiencia del procesador.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion10">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">2.3.4 Módulos de Direccionamiento</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Los módulos de direccionamiento son componentes de una arquitectura de computadoras que se encargan de
+                                    calcular o generar las direcciones de memoria utilizadas por las instrucciones. Estos módulos pueden ser
+                                    circuitos especializados en la CPU o instrucciones específicas que permiten realizar operaciones de
+                                    direccionamiento.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">El direccionamiento es clave para acceder a datos en la memoria principal de la computadora. Los módulos de direccionamiento utilizan circuitos aritméticos para realizar cálculos y obtener direcciones relativas a partir de registros.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <div class="contenedorInfoIzq">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/DireccionamientoDirecto.png/220px-DireccionamientoDirecto.png" alt="" width="100%">
+                        </div>
+                        <div class="contenedorInfoDerTexto">
+                            <t class="fuenteTitleBold">Mas Info</t><br>
+                            <t class="fuenteGral">La elección y diseño de los módulos de direccionamiento depende en gran medida de la arquitectura
+                                específica y los requisitos de rendimiento. Los módulos de direccionamiento eficientes y optimizados
+                                pueden reducir el tiempo de acceso a los datos y mejorar el rendimiento general del sistema.</t>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion11">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">.4 Casos de Estudio de CPU Reales</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">En el campo de la arquitectura de computadoras, existen numerosos casos de estudio de CPU (Unidad
+                                    Central de Procesamiento) reales que han sido desarrolladas por diferentes fabricantes y han influido en
+                                    el diseño de sistemas informáticos.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Uno de los casos de estudio más destacados es la arquitectura x86, desarrollada por Intel y AMD. Los
+                                    procesadores x86 han sido ampliamente utilizados en computadoras personales y servidores durante
+                                    décadas. Estos procesadores han evolucionado desde los primeros modelos de 16 bits hasta los actuales
+                                    procesadores de 64 bits, ofreciendo un conjunto de instrucciones amplio y compatibilidad con sistemas
+                                    operativos y aplicaciones existentes.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Otro caso de estudio es la arquitectura ARM (Advanced RISC Machine), que se ha convertido en un estándar
+                                    en dispositivos móviles y embebidos. Los procesadores ARM son conocidos por su eficiencia energética y
+                                    su diseño de conjunto de instrucciones reducido, lo que los hace adecuados para dispositivos con
+                                    restricciones de energía y tamaño.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Además, existen arquitecturas como MIPS (Microprocessor without Interlocked Pipeline Stages), utilizada
+                                    en sistemas embebidos y en algunos supercomputadores, y PowerPC, utilizado en computadoras personales y
+                                    servidores.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Estos casos de estudio de CPU reales ilustran la aplicación práctica de los principios de diseño de arquitectura de computadoras.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footerBox">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="../MEDIA/IMG/poweredby.png" alt="Logo de MAURO.AV">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <t class="fuenteGralBold">SOBRE MI</t>
+                    <p>
+                        <t class="fuenteGral">Mauro Emanuel Alvarado Vazquez - 21051384</t>
+                    </p>
+                    <p>
+                        <t class="fuenteGral">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, odit?
+                        </t>
+                    </p>
+                </div>
+                <div class="box">
+                    <t class="fuenteGralBold">SIGUENOS</t>
+                    <div class="red-social">
+                        <a href="" class="fa fa-instagram"></a>
+                        <a href="" class="fa fa-linkedin"></a>
+                        <a href="" class="fa fa-twitter"></a>
+                        <!-- Donde se apunta, se pone la bala 😉-->
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>
+                    <t class="fuenteGral">&copy; 2023 <t class="fuenteGralBold">MAURO.AV</t> - Algunos Derechos
+                        Reservados.</t>
+                </small>
+            </div>
+        </div>
+    </footer>  
+</body>
+    
+</html>

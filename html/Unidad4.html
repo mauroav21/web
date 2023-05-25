@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AdC MAV</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="..\css\Style.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="second">
+    <header>
+        <div class="headerNavig">
+            <a href="../html/Index.html">
+                <div class="logo">
+                    <img class="logoIMG">
+                </div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="../html/Index.html">
+                            <t class="fuenteGral">INICIO</t>
+                        </a>
+                    </li>
+                    <li><a href="../html/Unidad1.html">
+                            <t class="fuenteGral">UNIDAD 1</t>
+                        </a>
+                    </li>
+                    <li><a href="../html/Unidad2.html">
+                            <t class="fuenteGral">UNIDAD 2</t>
+                        </a>
+                    </li>
+                    <li><a href="../html/Unidad3.html">
+                            <t class="fuenteGral">UNIDAD 3</t>
+                        </a>
+                    </li>
+                    <li><a href="../html/Unidad4.html">
+                            <t class="fuenteGral">UNIDAD 4</t>
+                        </a>
+                    </li>
+                    <li><a href="../html/Practicas.html">
+                            <t class="fuenteGral">PRACTICAS</t>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="cont-temas">
+        <ul>
+            <li>
+                <div class="dropdown">
+                    <div class="tab"><t class="fuenteGral">Temas</t></div>
+                    <div class="dropdown-content">
+                        <a href="#seccion1"><t class="fuenteGral">4.1 ASPECTOS BÁSICOS DE LA COMPUTACIÓN PARALELA</t></a>
+                        <a href="#seccion2"><t class="fuenteGral">4.2 TIPOS DE COMPUTACIÓN PARALELA</t></a>
+                        <a href="#seccion3"><t class="fuenteGral">4.2.1 CLASIFICACIÓN</t></a>
+                        <a href="#seccion4"><t class="fuenteGral">4.2.2 ARQUITECTURA DE COMPUTADORES SECUENCIALES</t></a>
+                        <a href="#seccion5"><t class="fuenteGral">4.2.3 ORGANIZACIÓN DE DIRECCIONES DE MEMORIA</t></a>
+                        <a href="#seccion6"><t class="fuenteGral">4.3 SISTEMA DE MEMORIA (COMPARTIDA)</t></a>
+                        <a href="#seccion7"><t class="fuenteGral">4.3.1 REDES DE INTERCONEXIÓN DINÁMICA (INDIRECTA)</t></a>
+                        <a href="#seccion8"><t class="fuenteGral">4.4 SISTEMAS DE MEMORIA DISTRIBUIDA</t></a>
+                        <a href="#seccion9"><t class="fuenteGral">4.4.1 REDES DE INTERCONEXIÓN ESTÁTICAS</t></a>
+                        <a href="#seccion10"><t class="fuenteGral">4.5 CASOS PARA ESTUDIO</t></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown-ri"><t class="fuenteGral">MAURO EMANUEL ALVARADO VAZQUEZ - 21051384</t></div>
+            </li>
+        </ul>
+    </div>
+    <div class="colum">
+        <section class="hero-section">
+            <section class="sec">
+                <div class="cont">
+                    
+                    <div class="cont">
+                        <section id="seccion1">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">4.1 Computación Paralela: Basicos</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">La computación paralela es una disciplina que se ocupa del diseño y desarrollo de sistemas
+                                    computacionales que utilizan múltiples procesadores o núcleos de procesamiento.</t>
+                                </div>
+                                
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">Algunos aspectos básicos importantes de la computación paralela incluyen:</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">1. Paralelismo:</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">La capacidad de realizar múltiples tareas de forma simultánea. Se busca dividir un
+                                    problema en partes más pequeñas y resolver cada una de ellas en paralelo.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">2. Rendimiento:</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Uno de los principales objetivos de la computación paralela es mejorar el
+                                    rendimiento de
+                                    los sistemas computacionales. Al dividir una tarea en partes más pequeñas y ejecutarlas
+                                    simultáneamente,
+                                    se puede lograr un procesamiento más rápido y eficiente.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">3. Granularidad:</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">La granularidad se refiere al tamaño de las tareas que se pueden paralelizar. Puede
+                                    variar desde tareas muy pequeñas y específicas hasta tareas más grandes y completas.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">4. Comunicación y sincronización:</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">En los sistemas de computación paralela, los diferentes
+                                    procesadores o
+                                    núcleos de procesamiento deben comunicarse y sincronizarse entre sí para compartir datos y coordinar
+                                    las
+                                    tareas. Esto implica el diseño de mecanismos eficientes de comunicación y sincronización.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <div class="contenedorInfoIzq">
+                            <img src="https://1.bp.blogspot.com/-K8AKJh-nS18/UpfrJV7yHDI/AAAAAAAAAJA/0NK1lC4pJKg/s1600/computacion+paralela.jpg" alt="" width="100%">
+                        </div>
+                        <div class="contenedorInfoDerTexto">
+                            <t class="fuenteTitleBold">Mas Info</t><br>
+                            <t class="fuenteGral">La computación paralela utiliza múltiples recursos de cómputo para acelerar el procesamiento de información. Permite abordar problemas complejos y mejorar el rendimiento de los sistemas informáticos.</t>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion2">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">4.2 Tipos de Computación Paralela</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Existen diferentes tipos de computación paralela, cada uno de los cuales se utiliza en diferentes
+                                    escenarios y aplicaciones. Algunos de los tipos más comunes incluyen:</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion3">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">4.2.1 Clasificación</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold"></t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">Computación paralela a nivel de instrucción:</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Se basa en la ejecución simultánea de múltiples
+                                    instrucciones en diferentes unidades de procesamiento. Esto se logra mediante la segmentación de las
+                                    instrucciones y la ejecución en etapas.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">Computación paralela a nivel de datos:</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Se refiere a la ejecución simultánea de la misma operación
+                                    en
+                                    diferentes conjuntos de datos. Esto se utiliza en aplicaciones donde se pueden realizar operaciones
+                                    idénticas en diferentes elementos de datos de manera independiente.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">Computación paralela a nivel de tarea:</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Se basa en la división de una tarea en subconjuntos más
+                                    pequeños y su ejecución en diferentes procesadores o núcleos de procesamiento. Cada subconjunto de
+                                    tareas puede ejecutarse de forma independiente.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion4">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">4.2.2 Arquitectura de Computadores Secuenciales</t></div>
+                                <div class="textoEnImagenCentradoExtra"<t class="fuenteGralBold">>Se refiere a los sistemas que ejecutan instrucciones de
+                                    forma secuencial, una después de otra.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <div class="contenedorInfoIzq">
+                            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ4ij0L89c9ijfT_bArLfGE0xZA96nmiT9nhOtu6CPZ8xpb2Ge2" alt="" width="100%">
+                        </div>
+                        <div class="contenedorInfoDerTexto">
+                            <t class="fuenteTitleBold">Mas Info</t><br>
+                            <t class="fuenteGral">En este tipo de arquitectura, las instrucciones se almacenan en memoria y se recuperan
+                                secuencialmente
+                                para su ejecución.</t>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion5">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">4.2.3 Organización de Direcciones de Memoria</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">as direcciones de memoria se utilizan para acceder a datos y programas almacenados en la memoria
+                                    principal. Algunos conceptos clave relacionados con la organización de direcciones de
+                                    memoria son:</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">Espacio de direcciones:</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Es el rango completo de direcciones de memoria que un sistema puede
+                                    utilizar.
+                                    Puede variar según la arquitectura y la capacidad del sistema.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">Direcciones físicas y virtuales:</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Las direcciones físicas se refieren a las ubicaciones físicas
+                                    reales
+                                    en la memoria, mientras que las direcciones virtuales son direcciones que se utilizan en el nivel
+                                    lógico
+                                    y se traducen a direcciones físicas por medio de una unidad de administración de memoria.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">Mapeo de direcciones:</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Es el proceso de asignar direcciones virtuales a direcciones físicas. Esto
+                                    implica la gestión de la memoria virtual y la traducción de direcciones virtuales a direcciones
+                                    físicas reales.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">Jerarquía de memoria:</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Los sistemas de computadoras suelen tener múltiples niveles de memoria, como
+                                    caché, memoria principal y almacenamiento secundario. La organización de direcciones de memoria debe
+                                    considerar la jerarquía y el acceso eficiente a los diferentes niveles de memoria.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <div class="contenedorInfoIzq">
+                            <img src="https://www.zator.com/Hardware/Images_esp/H5a-F2.gif" alt="" width="100%">
+                        </div>
+                        <div class="contenedorInfoDerTexto">
+                            <t class="fuenteTitleBold">Mas Info</t><br>
+                            <t class="fuenteGral">La organización de direcciones de memoria es crucial para gestionar eficientemente el acceso a datos, mejorar el rendimiento y garantizar la seguridad en los sistemas informáticos.</t>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion6">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">4.3 Sistema de Memoria (compartida)</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">En elmúltiples
+                                    procesadores comparten el acceso a una única memoria física.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">En este tipo de sistema, los procesadores pueden
+                                    leer y
+                                    escribir en la memoria compartida, lo que les permite intercambiar información y colaborar en la
+                                    ejecución de tareas.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">Los
+                                    procesadores pueden comunicarse entre sí mediante la memoria compartida, lo que simplifica la
+                                    implementación de algoritmos paralelos y distribuidos. Además, permite el uso de estructuras de
+                                    datos
+                                    compartidas, como variables y arreglos.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">Para lograr un acceso coherente y ordenado a la memoria compartida, se utilizan protocolos de
+                                    coherencia
+                                    de caché. Estos protocolos aseguran que los procesadores vean los cambios realizados por otros
+                                    procesadores en un orden consistente y que no ocurran inconsistencias debido a la concurrencia.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">Uno de los enfoques
+                                    más
+                                    comunes es utilizar un bus de sistema, donde todos los procesadores se conectan al mismo bus para
+                                    acceder a la memoria compartida.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">Otro enfoque es utilizar una red de interconexión, donde los
+                                    procesadores se comunican a través de una red dedicada.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <div class="contenedorInfoIzq">
+                            <img src="https://slideplayer.es/slide/5313288/17/images/5/Arquitectura+centralizada+de+memoria+compartida.jpg" alt="" width="100%">
+                        </div>
+                        <div class="contenedorInfoDerTexto">
+                            <t class="fuenteTitleBold">Mas Info</t><br>
+                            <t class="fuenteGral"> medida que aumenta el número de procesadores en un sistema de memoria compartida, pueden surgir
+                                problemas de escalabilidad. El acceso simultáneo a la memoria compartida por parte de múltiples
+                                procesadores puede generar cuellos de botella y degradar el rendimiento global del sistema.</t>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">Multiprocesadores</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Un multiprocesador es un sistema de computación que consta de múltiples procesadores independientes
+                                    que
+                                    trabajan en conjunto para ejecutar tareas.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">La utilización de multiprocesadores tiene varias ventajas. En primer lugar, permite la ejecución
+                                    paralela de tareas, lo que acelera el procesamiento y mejora la capacidad de respuesta del sistema.
+                                    Además, los multiprocesadores ofrecen mayor capacidad de cómputo.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">Existen diferentes tipos de multiprocesadores, como los multiprocesadores simétricos (SMP) y los
+                                    multiprocesadores asimétricos (AMP).</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">En un SMP, todos los procesadores comparten el mismo acceso a
+                                    la
+                                    memoria y tienen la misma jerarquía de caché, lo que permite una mayor transparencia y facilidad de
+                                    programación.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">En un AMP, los procesadores pueden tener diferentes características y
+                                    capacidades, lo que permite una asignación más eficiente de tareas dependiendo de sus requisitos.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">Una de las consideraciones importantes en los multiprocesadores es la comunicación y sincronización
+                                    entre los procesadores. Se deben establecer mecanismos de comunicación y coordinación para
+                                    garantizar
+                                    que los procesadores trabajen de manera coherente.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">en los multiprocesadores es esencial garantizar la eficiencia energética y el equilibrio de
+                                    carga. La distribución de tareas entre los procesadores debe ser equilibrada para aprovechar al
+                                    máximo
+                                    los recursos disponibles y minimizar los cuellos de botella.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion7">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">4.3.1 Redes de interconexión dinámica (indirecta)</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">En esta los dispositivos están conectados mediante una red de interconexión que
+                                    permite
+                                    la comunicación y transferencia de datos entre ellos de manera eficiente.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">Medio Compartido</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">múltiples dispositivos comparten un mismo canal de comunicación o
+                                    medio físico para transmitir y recibir datos. En este tipo de redes, los datos enviados por un
+                                    dispositivo pueden ser escuchados por todos los demás dispositivos conectados al medio compartido.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">La
+                                    transmisión de datos se realiza mediante técnicas de acceso al medio, como el acceso múltiple por
+                                    detección de portadora con detección de colisiones (CSMA/CD).</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <div class="contenedorInfoIzq">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3518/3518210.png" alt="" width="100%">
+                        </div>
+                        <div class="contenedorInfoDerTexto">
+                            <t class="fuenteTitleBold">Mas Info</t><br>
+                            <t class="fuenteGral"> Este método permite que los
+                                dispositivos
+                                compartan el medio de manera equitativa, evitando colisiones entre los datos enviados por diferentes
+                                dispositivos.</t>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold"></t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">Las redes de medio compartido presentan limitaciones en términos de
+                                    rendimiento y escalabilidad. Cuando varios dispositivos intentan transmitir datos simultáneamente,
+                                    se
+                                    producen colisiones y se necesita un mecanismo de retransmisión para reenviar los datos. Esto puede
+                                    generar congestión y degradar el rendimiento de la red.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">Conmutadas</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Estas redes utilizan dispositivos de conmutación, como conmutadores o
+                                    routers,
+                                    para establecer conexiones dedicadas entre los dispositivos conectados.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">En este caso, cada
+                                    dispositivo
+                                    tiene un enlace dedicado y exclusivo a través del cual puede comunicarse con otros dispositivos en
+                                    la
+                                    red. Esto permite una comunicación más eficiente y elimina el problema de las colisiones.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">En este caso, cada
+                                    dispositivo
+                                    tiene un enlace dedicado y exclusivo a través del cual puede comunicarse con otros dispositivos en
+                                    la
+                                    red. Esto permite una comunicación más eficiente y elimina el problema de las colisiones.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">Las redes conmutadas son especialmente útiles en entornos donde se requiere un alto rendimiento, como
+                                    en
+                                    centros de datos o redes empresariales. Estas redes permiten una comunicación eficiente entre los
+                                    dispositivos conectados, minimizando las colisiones y maximizando el rendimiento general de la red.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion8">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">4.4 Sistemas de memoria distribuida</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Estos sistemas permiten el acceso a la memoria desde múltiples nodos de procesamiento
+                                    distribuidos en una red.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">se pueden destacar los multicomputadores como una forma
+                                    común
+                                    de implementación de sistemas de memoria distribuida. Además, las redes de interconexión estáticas
+                                    son
+                                    utilizadas para proporcionar una comunicación eficiente entre los nodos en estos sistemas. A
+                                    continuación, exploraremos estos temas en detalle.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">Multicomputadores</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">sistemas que utilizan múltiples nodos de procesamiento independientes y
+                                    distribuidos para llevar a cabo tareas de cómputo. Cada nodo en un multicomputador puede tener su
+                                    propia
+                                    memoria local, y la comunicación entre los nodos se realiza a través de una red de interconexión.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <div class="contenedorInfoIzq">
+                            <img src="https://sites.google.com/site/soiiunidad4y5/_/rsrc/1467895327511/home/Figura1.gif" alt="" width="100%">
+                        </div>
+                        <div class="contenedorInfoDerTexto">
+                            <t class="fuenteTitleBold">Mas Info</t><br>
+                            <t class="fuenteGral"> se utilizan en una amplia gama de aplicaciones, como simulaciones científicas,
+                                procesamiento de imágenes y renderizado de gráficos.</t>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion9">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">4.4.1 Redes de interconexión estáticas</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Las redes de interconexión estáticas se utilizan para establecer la
+                                    comunicación entre los nodos de procesamiento. Estas redes se caracterizan por tener una topología
+                                    fija,
+                                    lo que significa que la conexión física entre los nodos no cambia durante la ejecución del sistema.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">Las redes de interconexión
+                                    estáticas
+                                    pueden proporcionar una comunicación eficiente entre los nodos, minimizando los tiempos de latencia
+                                    y
+                                    maximizando el ancho de banda disponible para el intercambio de datos.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="seccion10">
+                            <div class="contenedorGrlSinImagen">
+                                <div class="textoEnImagenCentrado"><t class="fuenteTitleBold">4.5 Casos para Estudio</t></div>
+                                <div class="textoEnImagenCentradoExtra"><t class="fuenteGralBold">Existen diversos casos, algunos ejemplos destacados son:</t>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">1. El uso de sistemas de memoria distribuida en aplicaciones de Big Data: Con el crecimiento
+                                    exponencial
+                                    de los datos en la era digital, los sistemas de memoria distribuida se han vuelto cruciales para el
+                                    procesamiento y análisis eficiente de grandes volúmenes de información.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">2. Implementación de multicomputadores en entornos de supercomputación: Los multicomputadores se
+                                    utilizan ampliamente en la construcción de supercomputadoras, que son sistemas de cómputo de alto
+                                    rendimiento utilizados para resolver problemas complejos en campos como la física, la biología y la
+                                    meteorología.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">3. Sistemas de memoria distribuida en entornos de nube: Con la proliferación de servicios en la nube,
+                                    los sistemas de memoria distribuida desempeñan un papel clave en la escalabilidad y la distribución
+                                    eficiente de los recursos de cómputo y
+                                    almacenamiento en la nube.</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="cont">
+                        <section id="">
+                            <div class="contenedorGrlSinImagenGrl">
+                                <div class="textoEnImagenCentrado"><t class="fuenteGralBold">4. Investigación en nuevas topologías de red para sistemas de memoria distribuida: Se continúa
+                                    investigando y desarrollando nuevas topologías de redes de interconexión estáticas que puedan
+                                    mejorar el
+                                    rendimiento y la eficiencia de los sistemas de memoria distribuida..</t>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footerBox">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="../MEDIA/IMG/poweredby.png" alt="Logo de MAURO.AV">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <t class="fuenteGralBold">SOBRE MI</t>
+                    <p>
+                        <t class="fuenteGral">Mauro Emanuel Alvarado Vazquez - 21051384</t>
+                    </p>
+                    <p>
+                        <t class="fuenteGral">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, odit?
+                        </t>
+                    </p>
+                </div>
+                <div class="box">
+                    <t class="fuenteGralBold">SIGUENOS</t>
+                    <div class="red-social">
+                        <a href="" class="fa fa-instagram"></a>
+                        <a href="" class="fa fa-linkedin"></a>
+                        <a href="" class="fa fa-twitter"></a>
+                        <!-- Donde se apunta, se pone la bala 😉-->
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>
+                    <t class="fuenteGral">&copy; 2023 <t class="fuenteGralBold">MAURO.AV</t> - Algunos Derechos
+                        Reservados.</t>
+                </small>
+            </div>
+        </div>
+    </footer>  
+</body>
+
+</html>

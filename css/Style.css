@@ -1,0 +1,416 @@
+/***************************************************/
+/* Esta parte corresponde a las paginas siguinetes */
+/***************************************************/
+
+/******************************************/
+/* Este es el css de SpaceX               */
+/* autor: mauro.av                        */
+/******************************************/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body.details{
+    margin: 0;
+    background-image: url(../media/img/background_space.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+
+body.second{
+    margin: 0;
+    background-image: url(../media/img/dondoGrl.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/******************************************/
+/* Esto corresponde al estilo de texto    */
+/******************************************/
+
+t.fuenteGral{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+}
+
+t.fuenteTitleBold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 400%;
+    color: #ffff;
+}
+
+t.fuenteGralBold{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 150%;
+    color: #ffff;
+}
+
+
+/******************************************/
+/* Esto corresponde al Headder            */
+/******************************************/
+
+header{
+    width: 100%;
+    height: 70px;
+}
+div.headerNavig{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+}
+
+div.logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+    padding-top: 5px;
+}
+
+img.logoIMG{
+    content: url("../MEDIA/IMG/logoArqui.png");
+    height: 100%;
+    padding: auto;
+}
+
+/******************************************/
+/* Esto corresponde a la                  */
+/* barra de navegacion                    */
+/******************************************/
+nav{
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: #ffff;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+/******************************************/
+/* Esto corresponde al cont-temas         */
+/******************************************/
+div.cont-temas{
+    width: 100%;
+    float: left;
+    padding: 0;
+
+}
+.cont-temas ul li {
+    display: contents;
+}
+
+
+/******************************************/
+/* Esto corresponde al dropdown           */
+/******************************************/
+
+.dropdown {
+    width: 20%;
+    float: left;
+    color: #fff;
+}
+
+.dropdown-ri {
+    width: 80%;
+    float: left;
+    color: #fff;
+    text-align: center;
+}
+  
+.tab {
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    top: 60px;
+    left: 50px;
+    align-self: center;
+    
+    background-color: #2b3138;
+    padding: 12px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    font-size: 11px;
+    width: 450px; 
+    height: 530px; 
+}
+
+.dropdown-content-U2 {
+    display: none;
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    top: 60px;
+    left: 50px;
+    align-self: center;
+    
+    background-color: #2b3138;
+    padding: 12px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    font-size: 11px;
+    width: 350px; 
+    height: 270px; 
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropdown-content-U2 {
+    display: block;
+}
+  
+.dropdown-content a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.dropdown-content-U2 a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropdown-content-U2 {
+    display: block;
+}
+  
+/******************************************/
+/* Esto corresponde a la columna central  */
+/******************************************/
+div.colum{
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+
+div.cont{
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+
+/******************************************/
+/* Esto corresponde alcontenido           */
+/* de la columna central                  */
+/******************************************/
+
+div.contenedorInfoIzq{
+    color: #ffff;
+    float: left;
+    width: 45%;
+    padding: 0;
+    padding-left: 5%;
+    padding-top: 10px;
+}
+div.contenedorInfoIzqTexto{
+    color: #ffff;
+    float: left;
+    width: 45%;
+    padding-left: 5%;
+    padding-top: 10%;
+
+}
+div.contenedorInfoDer{
+    color: #ffff;
+    float: right;
+    width: 45%;
+    padding: 0;
+    padding-right: 5%;
+    padding-top: 10px;
+}
+div.contenedorInfoDerTexto{
+    color: #ffff;
+    float: right;
+    width: 45%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+div.contenedorGrl{
+    position: relative;
+    text-align: center;
+    padding: 0;
+}
+div.contenedorGrlSinImagen{
+    position: relative;
+    text-align: center;
+    padding-top: 50%;
+}
+
+div.contenedorGrlSinImagenGrl{
+    position: relative;
+    text-align: center;
+    padding-top: 20%;
+}
+
+/******************************************/
+/* Esto corresponde al texto en imagenes  */
+/******************************************/
+
+div.textoEnImagen{
+    position:absolute;
+    top: 70%;
+    left: 5%;
+    transform: translate(0%, -50%);
+    color: #ffff;
+}
+
+div.textoEnImagenCentrado{
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+}
+
+div.textoEnImagenCentradoExtra{
+    position:absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffff;
+}
+
+div.textoEnImagenExtra{
+    position:absolute;
+    top: 62%;
+    left: 5.5%;
+    transform: translate(0%, -50%);
+    color: #ffff;
+}
+
+/******************************************/
+/* Esto corresponde a los links de img    */
+/******************************************/
+
+a.links:link, a.links:visited{
+    position:absolute;
+    top: 82%;
+    left: 5.5%;
+    transform: translate(0%, -50%);
+    color: #ffff;
+    border: 2px solid #ffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+}
+
+a.links:hover, a.links:active{
+    color: black;
+    background-color: #ffff;
+}
+
+/******************************************/
+/* Esto corresponde al footer             */
+/******************************************/
+
+footer{
+    width: 100%;
+    background-color: #0a141d;
+    margin: 0;
+    clear: both;
+}
+
+footer .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+footer .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .grupo-1 .box figure img{
+    width: 250px;
+}
+
+footer .grupo-1 .box t{
+    color: #ffff;
+}
+
+footer .grupo-1 .box p{
+    color: #ffff;
+    margin-bottom: 10px;
+}
+
+footer .grupo-1 .box .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #ffff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+footer .grupo-1 .box .red-social a:hover{
+    color: aqua;
+}
+
+footer .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    color: #ffff;
+    text-align: center;
+}
+
+footer ul li a t{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+
+@media screen and (max-width:800px) {
+    footer .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+
