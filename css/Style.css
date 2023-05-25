@@ -75,7 +75,7 @@ div.logo{
 }
 
 img.logoIMG{
-    content: url("../MEDIA/IMG/logoArqui.png");
+    content: url("../media/img/logoArqui.png");
     height: 100%;
     padding: auto;
 }
