@@ -220,7 +220,7 @@ div.cont-temas{
     z-index: 9999;
     font-size: 11px;
     width: 430px; 
-    height: 270px; 
+    height: 400px; 
 }
 .dropdown:hover .dropdown-content-U3 {
     display: block;
@@ -250,7 +250,7 @@ div.cont-temas{
     z-index: 9999;
     font-size: 11px;
     width: 400px; 
-    height: 270px; 
+    height: 400px; 
 }
 .dropdown:hover .dropdown-content-U4 {
     display: block;
