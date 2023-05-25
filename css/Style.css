@@ -204,6 +204,66 @@ div.cont-temas{
 .dropdown:hover .dropdown-content-U2 {
     display: block;
 }
+
+.dropdown-content-U3 {
+    display: none;
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    top: 60px;
+    left: 50px;
+    align-self: center;
+    
+    background-color: #2b3138;
+    padding: 12px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    font-size: 11px;
+    width: 430px; 
+    height: 270px; 
+}
+.dropdown:hover .dropdown-content-U3 {
+    display: block;
+}
+.dropdown-content-U3 a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.dropdown:hover .dropdown-content-U3 {
+    display: block;
+}
+
+.dropdown-content-U4 {
+    display: none;
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    top: 60px;
+    left: 50px;
+    align-self: center;
+    
+    background-color: #2b3138;
+    padding: 12px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    font-size: 11px;
+    width: 400px; 
+    height: 270px; 
+}
+.dropdown:hover .dropdown-content-U4 {
+    display: block;
+}
+.dropdown-content-U3 a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.dropdown:hover .dropdown-content-U4 {
+    display: block;
+}
   
 /******************************************/
 /* Esto corresponde a la columna central  */
